@@ -1,0 +1,312 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+
+    font-family: sans-serif;
+
+}
+
+.boxcenter {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.row {
+    float: left;
+    width: 100%;
+
+}
+
+.mb {
+    margin-bottom: 20px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.demo {
+    background-color: wheat;
+    min-height: 100px;
+}
+
+.header {
+    background-color: aquamarine;
+    border: 1px #09a435 solid;
+    font-size: 1vw;
+    color: blue;
+    border-radius: 5px;
+}
+
+.header h1 {
+    margin: 20px;
+    font-size: 1.7vw;
+}
+
+.menu {
+    background-color: rgb(13, 14, 14);
+
+    color: rgb(174, 174, 226);
+    border-radius: 5px;
+}
+
+.boxtrai {
+    float: left;
+    width: 74%;
+
+}
+
+.boxphai {
+    float: left;
+    width: 22%;
+
+}
+
+.mr {
+    margin-right: 2%;
+}
+
+
+.footer {
+    background-color: aquamarine;
+    border: 1px #09a435 solid;
+    font-size: 0.8vw;
+    color: blue;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.boxtitle {
+    color: #333;
+    padding: 10px;
+    background-color: #eee;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border: 1px #ccc solid;
+
+
+}
+
+.boxcontent {
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 1px #ccc solid;
+
+    padding: 20px;
+}
+
+.boxfooter {
+
+    padding: 10px;
+    background-color: #eee;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: 1px #ccc solid;
+    border-left: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+
+}
+
+.boxcontent2 {
+    border: 1px #ccc solid;
+    min-height: 200px;
+    background-color: #ccc;
+}
+
+.banner {
+    min-height: 300px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.banner img {
+    height: 250px;
+}
+
+.boxsp {
+    float: left;
+    width: 32%;
+    min-height: 300px;
+    border: 1px #eee solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.boxsp .img {
+    min-height: 230px;
+    text-align: center;
+}
+
+.img img {
+    height: 220px;
+    margin-top: 10px;
+}
+
+.menu ul {
+    padding: 0 15px;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline;
+    padding: 0 15px;
+}
+
+.menu ul li a {
+    color: #ccc;
+    text-decoration: none;
+
+}
+
+menu ul li a:hover {
+    color: white;
+    font-size: 0.8vw;
+    transition: 0.5s;
+}
+
+/* box tai khoa */
+.formtaikhoan {
+    line-height: 150%;
+}
+
+.formtaikhoan input[type="text"],
+.formtaikhoan input[type="password"],
+.frmcontent input[type="text"] {
+    width: 100%;
+    border: 1px #ccc solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.formtaikhoan input[type="checkbox"]{
+    border-radius: 5px;
+}
+
+.formtaikhoan input[type="submit"],
+.frmcontent input[type="submit"] ,
+.frmcontent input[type="reset"] ,
+.frmcontent input[type="button"]  {
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: rgb(230, 226, 225);
+    border: 1px rgb(210, 191, 191) solid;
+}
+
+.formtaikhoan input[type="submit"]:hover,
+.frmcontent input[type="submit"]:hover ,
+.frmcontent input[type="reset"]:hover ,
+.frmcontent input[type="button"]:hover  {
+
+    background-color: rgb(180, 168, 166);
+
+}
+
+.formtaikhoan li a {
+    color: teal;
+    text-decoration: none;
+
+}
+
+.formtaikhoan li a:hover {
+    color: rgb(33, 165, 165);
+    text-decoration: underline;
+}
+
+/* menu doc */
+.menudoc ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.menudoc ul li {
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px #eee solid;
+}
+
+.menudoc ul li a {
+    color: #666;
+    text-decoration: none;
+}
+
+.menudoc ul li:hover {
+    background-color: #ccc;
+
+}
+
+.searchbox input[type="text"] {
+    width: 100%;
+    padding: 5px 10px;
+    background-color: #fff;
+    border: 1pz #ccc solid;
+    border-radius: 5px;
+}
+
+.top10 img {
+    width: 20%;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px #ccc solid;
+}
+
+.top10 a {
+    color: #666;
+    text-decoration: none;
+}
+
+.top10 a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+/*  admin */
+.headeradmin {
+    background-color: #eee;
+    border: 1px #ccc solid;
+    padding: 10px 20px;
+    color: #333;
+    border-radius: 5px;
+}
+.frmtitle{
+    background-color: #eee;
+    border: 1px #ccc solid;
+    padding: 0px 20px;
+    color: #333;
+    border-radius: 5px;
+}
+.frmconten{
+    padding: 20px 0px;
+}
+.frmdsloai table{
+width: 100%;
+border-collapse: collapse;
+
+}
+.frmdsloai table th:nth-child(1){
+    width: 10%;
+    padding: 20px ;
+    background-color: #ccc;
+}
+.frmdsloai table th:nth-child(2){
+    width: 30%;
+    background-color: #ccc;
+
+}
+.frmdsloai table th:nth-child(3){
+    width: 40%;
+    background-color: #ccc;
+
+}
+.frmdsloai table th:nth-child(4){
+    width: 20%;
+    background-color: #ccc;
+
+}
+.frmdsloai table td{
+    padding: 10px 20px;
+    border: 1px #ccc solid;
+}
